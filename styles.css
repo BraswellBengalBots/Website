@@ -2,6 +2,7 @@ body {
 	background-color: black;
 	font-family: "Tahoma";
 }
+
 .header {
 	background-color: darkred;
 	color: white;
@@ -9,3 +10,16 @@ body {
 	padding: auto;
 	text-align: center;
 }
+
+.construction {
+	background-color: darkred;
+	color: white;
+	margin-top: 50px;
+	margin-right: 500px;
+	margin-left: 500px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
