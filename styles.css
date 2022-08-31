@@ -5,4 +5,7 @@ body {
 .header {
 	background-color: darkred;
 	color: white;
+	display: block;
+	padding: auto;
+	text-align: center;
 }
