@@ -14,9 +14,8 @@ body {
 .construction {
 	background-color: darkred;
 	color: white;
-	margin-top: 50px;
-	margin-right: 500px;
-	margin-left: 500px;
+	margin-right: 10%;
+	margin-left: 10%;
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
