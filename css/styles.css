@@ -140,7 +140,11 @@ h1 {
 }
 
 .hsi {
+<<<<<<< HEAD
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/main.JPG");
+=======
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/main.JPG");
+>>>>>>> 3c12dc6c578121d1c945b0741c3d14b784c5e775
 	height: 40vh;
 	background-position: center;
 	background-repeat: no-repeat;
