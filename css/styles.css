@@ -140,7 +140,7 @@ h1 {
 }
 
 .hsi {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/main.JPG");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/main.jpg");
 	height: 40vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -159,14 +159,89 @@ h1 {
 
 .quote-block {
 	margin: 10px auto 10px;
-	width: 80%;
-	border: 5px solid black;
-	padding: 10px;
+	width: 80vw;
+	padding: 1rem;
 	text-align: center;
 	background: var(--dark);
 	color: var(--light);
-	border-radius: 2rem;
-
+	border-radius: 2rem
 }
 
+.ContactImageContainer {
+	position: relative;
+	width: 25%;
+	display: flex;
+}
 
+.ContactImage {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 2rem;
+	box-shadow: 2rem;
+}
+
+.ContactTransitionMiddle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.ContactImageContainer:hover .ContactImage {
+	opacity: 0.3;
+}
+
+.ContactImageContainer:hover .ContactTransitionMiddle {
+	opacity: 1;
+}
+
+.ContactHoverText {
+	background-color: var(--dark);
+	color: var(--light);
+	font-size: 1rem;
+	padding: 16px 32px;
+	border-radius: 2rem;
+	text-align: center;
+}
+
+.ContactContainer {
+	width: 80vw;
+	margin: 30px auto 30px;
+	padding: 5px;
+	display: flex;
+	justify-content: flex start;
+	align-items: center;
+	box-shadow: 5px 5px 2.5px grey;
+	border-radius: 2rem;
+	background-color: mistyrose;
+	transition: .5s ease;
+}
+
+.ContactContainer:hover {
+	box-shadow: 15px 15px 10px grey;
+}
+
+.ContactText {
+	display: flex;
+	margin: auto;
+	color: var(--light);
+	background-color: var(--primary);
+	border-radius: 2rem;
+	width: 50%;
+}
+
+.ContactInfo {
+	text-align: center;
+	margin: auto;
+}
+
+.ContactInfo li {
+	margin: 10px;
+}
