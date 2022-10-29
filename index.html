@@ -1,40 +1,134 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Braswell Bengal Bots Website</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/welcome.css" />
+    <link rel="stylesheet" href="css/objective.css" />
+    <link rel="stylesheet" href="css/action-cards.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    <nav>
-      <div class="NavContainer">
-        <h1><a class="TeamName"href="index.html">Bengal Bots</a></h1>
-          <div class="menu">
-            <a href="index.html" class="is-active">Home</a>
-            <a href="Pages/about.html">About</a>
-            <a href="Pages/competitions.html">Competitions</a>
-            <a href="Pages/contact.html">Contact</a>
-          </div>
-            <button class="hamburger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
-      </div> 
-     <script src="scripts/main.js"></script>
-    </nav>
-
-    <div class="hsi">
-      <div class="hsit">
-        <h1>Welcome to The Jungle</h1>
+    <nav class="row">
+      <h1>Bengal Bots</h1>
+      <ul class="nav-links row-to-column">
+        <li class="row center hover-effect">
+          <a href="/index.html" class="center">Home</a>
+        </li>
+        <li class="row center hover-effect">
+          <a href="/pages/competitions.html" class="center">Competitions</a>
+        </li>
+        <li class="row center hover-effect">
+          <a href="/pages/contact.html" class="center">Contact</a>
+        </li>
+        <li class="row center hover-effect">
+          <a href="/pages/about.html" class="center">About</a>
+        </li>
+      </ul>
+      <div class="hamburger center column">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
-    </div>
-
-    <div class="quote-block">
-      <p>"It's Gonna be fun" -Joseph Woolison</p>
-    </div>
+    </nav>
+    <main class="column">
+      <section
+        class="welcome bg-img center column page-section"
+        style="--img-url: url('../images/main.JPG')"
+      >
+        <h2>WELCOME TO THE JUNGLE</h2>
+        <p>
+          The Bengal Bots mission is to develop our understanding of engineering
+          and robotics through teamwork and communications with the world around
+          us.
+        </p>
+      </section>
+      <hr class="break" />
+      <section class="objective column page-section">
+        <h2>Our Objective:</h2>
+        <div class="content center row-to-column">
+          <ul class="column">
+            <li>To design machines that can improve our world</li>
+            <li>To create a safe learning environment for our community</li>
+            <li>To solve problems efficiently and effectively as a team</li>
+          </ul>
+          <img src="images/roar.jpg" alt="objective" />
+        </div>
+      </section>
+      <hr class="break" />
+      <section class="action-cards center column page-section">
+        <h2>What we do:</h2>
+        <div class="content center row-to-column">
+          <div class="container center row-to-column">
+            <a
+              class="card bg-img center"
+              style="--img-url: url('../images/cards/card1.png')"
+              href="Pages/CodingSubPage.html"
+            >
+              <span>Coding</span>
+            </a>
+            <a
+              class="card bg-img center"
+              style="--img-url: url('../images/cards/card2.png')"
+              href="Pages/WebDevSubPage.html"
+            >
+              <span>Web Dev</span>
+            </a>
+          </div>
+          <div class="container center row-to-column">
+            <a
+              class="card bg-img center"
+              style="--img-url: url('../images/cards/card3.png')"
+              href="Pages/EngSubPage.html"
+            >
+              <span>Building</span>
+            </a>
+            <a
+              class="card bg-img center"
+              style="--img-url: url('../images/cards/card4.png')"
+              href="Pages/MarketingSubPage.html"
+            >
+              <span>Marketing</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="center row-to-column">
+      <div class="block column">
+        <h3>Pages</h3>
+        <ul class="column">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/competitions.html">Competition</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="block column">
+        <h3>Details</h3>
+        <ul class="column">
+          <li><a href="/pages/coding.html">Coding</a></li>
+          <li><a href="/pages/webdev.html">Web Dev</a></li>
+          <li><a href="/pages/building.html">Building</a></li>
+          <li><a href="/pages/marketing.html">Marketing</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="scripts/main.js"></script>
   </body>
 </html>

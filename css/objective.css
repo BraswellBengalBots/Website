@@ -1,0 +1,24 @@
+.objective {
+  background-color: var(--primary);
+  text-align: center;
+}
+
+.objective .content {
+  gap: 3em 20%;
+  justify-content: space-evenly;
+}
+
+.objective ul {
+  gap: 2em;
+}
+
+.objective img {
+  max-width: 20em;
+  border-radius: 0.5em;
+}
+
+@media screen and (max-width: 400px) {
+  .objective {
+    font-size: 0.7rem;
+  }
+}

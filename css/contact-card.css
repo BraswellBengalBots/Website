@@ -1,0 +1,38 @@
+
+.contact-list {
+  gap: 2em;
+}
+
+.card {
+  background-color: var(--primary);
+  padding: 1em;
+  border-radius: 1em;
+  width: 80%;
+  max-width: 60em;
+  min-height: 15em;
+  height: 22em;
+}
+
+.card img {
+  width: 10em;
+  border-radius: 0.5em;
+}
+
+.card ul {
+  width: calc(100% - 10em);
+  list-style: none;
+  gap: 1em;
+}
+
+@media screen and (max-width: 800px) {
+
+  .card {
+    width: 90%;
+    gap: 1em;
+    justify-content: center;
+  }
+
+  .card ul {
+    width: 90%;
+  }
+}

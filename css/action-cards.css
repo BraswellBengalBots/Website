@@ -1,0 +1,33 @@
+.action-cards .content {
+  gap: 1em 3em;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 65em;
+}
+.action-cards .container {
+  gap: 1em 10%;
+  width: clamp(0, 50%, 60em)
+}
+
+.action-cards a {
+  position: relative;
+  width: 12em;
+  height: 12em;
+}
+
+.action-cards a::before {
+  border-radius: 1em;
+  transition: 300ms all ease;
+}
+
+.action-cards a:hover::before {
+  border-radius: 1.5em;
+  filter: blur(1px) grayscale(20%);
+}
+
+.action-cards a span {
+  z-index: 11;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 7px var(--accent);
+}

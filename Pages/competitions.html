@@ -1,31 +1,111 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Braswell Bengal Bots Website COMPETITIONS</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Braswell Bengal Bots Website</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/welcome.css" />
+    <link rel="stylesheet" href="../css/objective.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    <nav>
-      <div class="NavContainer">
-        <h1><a class="TeamName"href="../index.html">Bengal Bots</a></h1>
-          <div class="menu">
-            <a href="../index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="competitions.html" class="is-active">Competitions</a>
-            <a href="contact.html">Contact</a>
-          </div>
-            <button class="hamburger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
-      </div> 
+    <nav class="row">
+      <h1>Bengal Bots</h1>
+      <ul class="nav-links row-to-column">
+        <li class="row center hover-effect">
+          <a href="/index.html" class="center">Home</a>
+        </li>
+        <li class="row center hover-effect">
+          <a href="/pages/competitions.html" class="center">Competitions</a>
+        </li>
+        <li class="row center hover-effect">
+          <a href="/pages/contact.html" class="center">Contact</a>
+        </li>
+        <li class="row center hover-effect">
+          <a href="/pages/about.html" class="center">About</a>
+        </li>
+      </ul>
+      <div class="hamburger center column">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </nav>
-    </script>
+    <main class="column">
+      <section
+        class="welcome bg-img center column page-section"
+        style="--img-url: url('../images/main.JPG')"
+      >
+        <h2>Our Competition</h2>
+      </section>
+      <hr class="break" />
+      <section class="objective center column page-section">
+        <h2>Best Robotics Competition</h2>
+        <div class="content center row-to-column">
+          <ul class="column">
+            <li>What we are working on and video teaser link</li>
+            <li>We have competed in Best robotics for 4 years!</li>
+            <li>
+              <a href="https://www.bestrobotics.org/site/"
+                >Website link for Best competition!</a
+              >
+            </li>
+          </ul>
+          <img src="../images/bestRoboticsLogo.jpg" alt="objective" />
+        </div>
+      </section>
+      <hr class="break" />
+      <section class="objective center column page-section">
+        <h2>First Tech Challenge</h2>
+        <div class="content center row-to-column">
+          <ul class="column">
+            <li>
+              <a href=""> Insert Link to current robot</a>
+            </li>
+            <li>
+              <a href="https://www.firstinspires.org/"
+                >Website link for First Challenge!</a
+              >
+            </li>
+          </ul>
+          <img src="../images/firstTechChallenge.jpg" alt="objective" />
+        </div>
+      </section>
+    </main>
+    <footer class="center row-to-column">
+      <div class="block column">
+        <h3>Pages</h3>
+        <ul class="column">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/competitions.html">Competition</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="block column">
+        <h3>Details</h3>
+        <ul class="column">
+          <li><a href="/pages/coding.html">Coding</a></li>
+          <li><a href="/pages/webdev.html">Web Dev</a></li>
+          <li><a href="/pages/building.html">Building</a></li>
+          <li><a href="/pages/marketing.html">Marketing</a></li>
+        </ul>
+      </div>
+    </footer>
     <script src="../scripts/main.js"></script>
   </body>
 </html>

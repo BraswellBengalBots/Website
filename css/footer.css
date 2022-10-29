@@ -1,0 +1,31 @@
+footer {
+  background-color: var(--primary);
+  padding: 1em;
+  min-height: 15em;
+  gap: 10em;
+}
+
+footer .block {
+  gap: 1em;
+  align-items: flex-start;
+  width: 12em;
+}
+
+footer img {
+  width: 2em;
+  height: 2em;
+}
+
+footer .block ul {
+  list-style: none;
+  gap: 0.5em;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 800px){
+
+  footer {
+    padding: 3em 1em;
+    gap: 3em;
+  }
+}
